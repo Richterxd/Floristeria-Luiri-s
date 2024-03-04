@@ -224,6 +224,9 @@ text-transform: capitalize;
 
 
     }
+
+
+
     .flor {
         display: flex;
         align-items: center;
@@ -249,4 +252,108 @@ text-transform: capitalize;
         line-height: 25px;
         text-transform: uppercase;
       }
-      
+      @media(max-width:991px){
+
+        .menu {
+            padding: 30px;
+        }
+        .menu label {
+            display: initial;
+        }
+        .menu .navbar{
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: #202020;
+            display: none;
+
+        }
+        .menu .navbar ul li{
+            width: 100px;
+
+        }
+        #menu:checked ~ .navbar{
+            display: initial;
+        }
+        .heade{
+            min-height: 0vh;
+
+        } 
+        .header-content {
+            padding: 100px 30px 30px 30px;
+        }
+        .header-txt{
+            width: 100%;
+            text-align: center;
+
+        }
+        .header-txt h1{
+            font-size: 90px;
+            line-height: 100px;
+
+        }
+        .btn-1{
+            margin-top: 25px;
+
+        }
+        .about{
+            padding: 30px;
+
+        }
+        .about-content{
+            flex-direction: column;
+            text-align: center;
+
+     
+        }
+        .about-1{
+        width: 100%;
+        margin-bottom: 80px;
+
+    }
+    .flor{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .about-2{
+    width: 100%;
+    padding-left: 0;
+      }
+      .about-img{
+        flex-direction: column;
+        margin-bottom: 40px;
+
+      }
+      .about-txt{
+      padding-left: 0;
+
+    }
+    .services{
+        padding: 30px;
+        
+    }
+    h2 {
+        font-size: 40px;
+
+    }
+    .services-content{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .footer{
+        padding: 30px;
+
+    }
+    .form-group{
+      flex-direction: column;
+
+    }
+    .campo{
+        margin: 0 0 15px 0;
+        width: 100%;
+        
+    }
+
+}
