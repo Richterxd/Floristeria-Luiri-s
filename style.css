@@ -1,359 +1,718 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+
 * {
+
   margin: 0;
+
   padding: 0;
+
   box-sizing: border-box;
+
   text-decoration: none;
+
   list-style: none;
+
 }
+
+
 
 body {
+
   font-family: "Poppins", sans-serif;
+
    background-color: #2D2C32;
+
 }
+
 .container{
+
     max-width: 1300px;
+
     margin: 0 auto;
+
 }
+
+
 
 .header {
+
 background: linear-gradient(
+
     175deg,
+
     rgba(43,42,48,0.5 )0%,
+
     rgba(45,44,50,1 )100%),
+
     url(images/bg.jpg);
+
 background-position: center center;
+
 background-repeat: no-repeat;
+
 background-size: cover;
+
 display: flex;
+
 align-items: center;
+
 min-height: 70vh;
+
 max-width: 100%;
+
 } 
 
+
+
 .menu {
+
     position: absolute;
+
     top: 0;
+
     left: 0;
+
     right: 0;
+
     display: flex;
+
     align-items: center;
+
     justify-content: space-between;
+
     }
+
     .logo {
+
         color: #EEEFF3;
+
         font-size: 25px;
+
         font-weight: 800;
 
+
+
     }
+
     .menu .navbar ul li{
+
         position: relative;
+
         float: left;
+
     }
+
     .menu .navbar ul li a {
+
         font-size: 18px;
+
         padding: 20px;
+
         color: #EEEFF3;
+
         display: block;
+
         font-weight: 600;
+
     }
+
     .menu .navbar ul li a:hover {
+
         color: #e7cee4; 
+
     }
+
     #menu{
+
         display: none;
+
     }
+
+
 
 .menu-icono {
+
     width: 25px;
+
     }
+
     .menu label{
+
         cursor: pointer;
+
         display: none;
+
     }
+
     .header-txt{
+
         width: 100%;
+
     }
+
 .header-txt h1{
+
     font-size: 50px;
+
     color: #EEEFF3;
+
     font-family: "Bebas Neue", sans-serif;
+
 }
+
+
 
 .header-txt h2{
+
     font-size: 50px;
+
     color: #EEEFF3;
+
     font-family: "Bebas Neue", sans-serif;
+
 }
+
 .header-txt p{
+
     font-size: 20px;
+
     color: #DADADA;
-    }
-    
-    .btn-1{
-        display: inline-block;
-        padding: 13px 35px;
-        background-color: #f5c4f5;
-        color: #FEFBF8;
-        text-transform: uppercase;
-        font-size: 14px;
-        margin-top: 35px;
-        border: 0;
-        cursor: pointer;
-        
 
     }
+
+    
+
+    .btn-1{
+
+        display: inline-block;
+
+        padding: 13px 35px;
+
+        background-color: #f5c4f5;
+
+        color: #FEFBF8;
+
+        text-transform: uppercase;
+
+        font-size: 14px;
+
+        margin-top: 35px;
+
+        border: 0;
+
+        cursor: pointer;
+
+        
+
+
+
+    }
+
     .btn-1:hover{
+
         background-color: #e2abcb;
+
     }
+
     .about{
+
         padding: 100px;
+
     }
+
 .about-content{
+
     display: flex;
+
 }
+
 .about-1{
+
     width: 50%;
+
 }
+
 h3{
+
     font-size: 28px;
+
     color: #a6a5ab;
+
     text-transform: uppercase;
+
     margin-bottom: 35px;
+
 }
+
 h4{
+
     color: #fefbf89c;
+
    
+
 }
+
 p{
+
     color: #ffffff;
+
     font-size: 18px;
 
+
+
 }
+
 .about-2{
+
     width: 40%;
+
     padding-left: 30px;
+
     }
+
     .about-img{
+
         display: flex;
+
         align-items: center;
+
         margin-bottom: 70px;
+
     }
+
     .about-img img{
+
         width: 80px;
+
         margin-bottom: 10px;
+
     }
+
         .about-txt{
+
 padding-left: 25px;
+
         }
+
         .about-txt h4{
+
             font-size: 16px;
+
             color: #A6A5AB;
+
             text-transform: uppercase;
+
             
+
         }
+
         
+
     .services{
+
         padding: 100px 0;
+
         background-color: #2D2C32;
+
 }
+
    .services-txt{
+
     text-align: center;
+
     }
+
     h2{
+
         font-size: 55px;
+
         line-height: 50px;
+
         text-transform: uppercase;
+
         color: #e4e1ef;
+
         margin-bottom: 20px;
 
+
+
     }
+
     .services-txt p{
+
         color: #2D2C32;
+
         margin-bottom: 35px;
+
   } 
+
   .services-content {
+
     display: flex;
 
+
+
     justify-content: center;
+
   
+
     align-items: center;
+
     
+
   }
+
   .services-content img{
-    width: 200px; 
 
-  height: 200px;
+    width: 300px; 
+
+
+
+  height: 300px;
+
+
 
   }
+
     .bebas-neue-regular {
+
         font-family: "Bebas Neue", sans-serif;
+
         font-weight: 400;
+
         font-style: normal;
+
     
+
     }
+
     .footer{
+
         padding: 100px;
+
         text-align: center;
+
         display: flex;
+
         flex-direction: column;
+
         align-items: center;
 
+
+
     }
+
     .footer h2{
+
         color: #EEEFF3;
 
-    }
-    .form-group{
-        display: flex;
+
 
     }
-    .campo{
-        padding: 11px 10px;
-        background-color: #B1AFB0;
-        color: #FEFBF8;
-        outline: none;
-        font-size: 16px;
-        margin: 0 5px 5px 0;
-        border: 0;
+
+    .form-group{
+
+        display: flex;
+
+
+
     }
+
+    .campo{
+
+        padding: 11px 10px;
+
+        background-color: #B1AFB0;
+
+        color: #FEFBF8;
+
+        outline: none;
+
+        font-size: 16px;
+
+        margin: 0 5px 5px 0;
+
+        border: 0;
+
+    }
+
     .campo::placeholder{
+
 color: #EEEFF3;
+
 text-transform: capitalize;
 
 
+
+
+
     }
+
+
+
+
 
 
 
     .flor {
+
         display: flex;
+
         align-items: center;
+
         margin: 1em;
+
         padding: 1em;
+
         border: 1px solid #838288;
+
         color: #FEFBF8;
+
       }
+
       
+
       .flor img {
+
         width: 100px;
+
         height: 100px;
+
         max-width: 100%;
+
       }
+
       
+
       .flor h3 {
+
         margin: 0 1em;
+
         color: white;
+
       }
+
       .footer p{
+
         font-family: "Poppins", sans-serif;
+
         font-size: 25px;
+
         line-height: 25px;
+
         text-transform: uppercase;
+
       }
+
       @media(max-width:991px){
 
+
+
         .menu {
+
             padding: 30px;
+
         }
+
         .menu label {
+
             display: initial;
+
         }
+
         .menu .navbar{
+
             position: absolute;
+
             top: 100%;
+
             left: 0;
+
             right: 0;
+
             background-color: #202020;
+
             display: none;
 
+
+
         }
+
         .menu .navbar ul li{
+
             width: 100px;
 
+
+
         }
+
         #menu:checked ~ .navbar{
+
             display: initial;
+
         }
+
         .heade{
+
             min-height: 0vh;
 
+
+
         } 
+
         .header-content {
+
             padding: 100px 30px 30px 30px;
-        }
-        .header-txt{
-            width: 100%;
-            text-align: center;
 
         }
+
+        .header-txt{
+
+            width: 100%;
+
+            text-align: center;
+
+
+
+        }
+
         .header-txt h1{
+
             font-size: 90px;
+
             line-height: 100px;
 
+
+
         }
+
         .btn-1{
+
             margin-top: 25px;
 
+
+
         }
+
         .about{
+
             padding: 30px;
 
+
+
         }
+
         .about-content{
+
             flex-direction: column;
+
             text-align: center;
 
+
+
      
+
         }
+
         .about-1{
+
         width: 100%;
+
         margin-bottom: 80px;
 
+
+
     }
+
     .flor{
+
         width: 100%;
+
         margin-bottom: 30px;
+
     }
+
+
 
     .about-2{
+
     width: 100%;
+
     padding-left: 0;
+
       }
+
       .about-img{
+
         flex-direction: column;
+
         margin-bottom: 40px;
 
+
+
       }
+
       .about-txt{
+
       padding-left: 0;
 
+
+
     }
+
     .services{
+
         padding: 30px;
+
         
+
     }
+
     h2 {
+
         font-size: 40px;
 
-    }
-    .services-content{
-        grid-template-columns: repeat(1, 1fr);
+
 
     }
+
+    .services-content {
+
+        display: grid;
+
+        grid-template-columns: repeat(2, 1fr); /* Crea dos columnas de igual ancho */
+
+      }
+
+
+
+    }
+
     .footer{
+
         padding: 30px;
 
+
+
     }
+
     .form-group{
+
       flex-direction: column;
 
-    }
-    .campo{
-        margin: 0 0 15px 0;
-        width: 100%;
-        
+
+
     }
 
-}
+    .campo{
+
+        margin: 0 0 15px 0;
+
+        width: 100%;
+
+        
+
+    }
+
